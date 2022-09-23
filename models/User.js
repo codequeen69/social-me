@@ -12,8 +12,13 @@ const UserSchema = new Schema(
         email:{
             type: String,
             required: true,
-            uniwue
+            unique: true,
+            match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please fill a valid email address']
         }
 
     }
-)
+);
+
+const User = model('User', UserSchema);
+
+module.exports = User;
