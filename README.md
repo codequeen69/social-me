@@ -21,6 +21,6 @@ https://watch.screencastify.com/v/QScoleRgqtEy9PU2mtWw
 https://github.com/codequeen69/social-me.git
 
 ## Contributors
-Made by Camille Howe
+Made by Camille Howe along with help from her study-buddy Bryan Nolasco!
 
 ### ©️2022
