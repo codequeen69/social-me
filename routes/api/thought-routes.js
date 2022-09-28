@@ -21,15 +21,16 @@ router
 .put(updateThought)
 .delete(deleteThought);
 
-// /api/thoughts/:thoughtId/reaction
-router
-.route('/:thoughtId/reaction')
-.post(addReaction); 
 
 // /api/thoughts/:userId
 router
 .route('/:userId')
 .post(addThought);
+
+// /api/thoughts/:thoughtId/reaction
+router
+.route('/:thoughtId/reaction')
+.post(addReaction); 
 
 // /api/thoughts/:thoughtId/reaction/:reactionId
 router
